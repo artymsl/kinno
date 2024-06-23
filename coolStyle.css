@@ -1,0 +1,41 @@
+body {
+  font-family: "Roboto", "Arial", sans-serif;
+}
+
+.purple {
+  background-color: rgb(126, 45, 202);
+  height: calc(100vh/9);
+}
+
+.coolText {
+  color: rgb(25, 219, 219);
+  position: relative;
+  top: 39px;
+  text-align: left;
+  text-size-adjust: 10px;
+}
+
+.notCoolText {
+  color: rgb(25, 219, 219);
+  position: relative;
+  bottom: 10px;
+  text-align: right;
+  text-size-adjust: 10px;
+}
+
+.onCenter {
+  color: rgb(114, 27, 255);
+  font-stretch: 10px;
+  text-align: center;
+  position: relative; 
+  top: -48px;
+}
+
+.box {
+  display: flex;
+  color: blueviolet;
+}
+
+.subcribe {
+  color: rgb(114, 19, 158);
+}
