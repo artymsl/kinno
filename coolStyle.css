@@ -27,15 +27,19 @@ body {
   color: rgb(114, 27, 255);
   font-stretch: 10px;
   text-align: center;
-  position: relative; 
+  position: relative;
   top: -48px;
 }
 
 .box {
-  display: flex;
   color: blueviolet;
+	margin-right: 5px;
 }
 
 .subcribe {
   color: rgb(114, 19, 158);
+}
+
+.container_top {
+  display: flex;
 }
