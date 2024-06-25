@@ -24,16 +24,33 @@ body {
 }
 
 .onCenter {
-  color: rgb(114, 27, 255);
+  color: rgb(44, 7, 104);
   font-stretch: 10px;
   text-align: center;
   position: relative;
   top: -48px;
+  font-family: "Roboto", "Arial", sans-serif;
 }
 
-.box {
+.image0 {
   color: blueviolet;
-	margin-right: 5px;
+	margin-right: 200px;
+  margin-left: 40px;
+}
+
+.image1 {
+  color: blueviolet;
+  margin-right: 200px;
+}
+
+.image2 {
+  color: blueviolet;
+  margin-right: 200px;
+}
+
+.image3 {
+  color: blueviolet;
+  margin-right: 200px;
 }
 
 .subcribe {
@@ -42,4 +59,12 @@ body {
 
 .container_top {
   display: flex;
+}
+
+.container_bottom {
+  display: flex;
+}
+
+.images {
+  font-family: "Roboto", "Arial", sans-serif;
 }
