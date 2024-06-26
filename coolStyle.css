@@ -1,10 +1,12 @@
 body {
   font-family: "Roboto", "Arial", sans-serif;
+  font-weight: 700;
 }
 
 .purple {
   background-color: rgb(126, 45, 202);
   height: calc(100vh/9);
+  min-width: 1865px;
 }
 
 .coolText {
@@ -25,30 +27,13 @@ body {
 
 .onCenter {
   color: rgb(44, 7, 104);
-  font-stretch: 10px;
   text-align: center;
   position: relative;
   top: -48px;
   font-family: "Roboto", "Arial", sans-serif;
 }
 
-.image0 {
-  color: blueviolet;
-	margin-right: 200px;
-  margin-left: 40px;
-}
-
-.image1 {
-  color: blueviolet;
-  margin-right: 200px;
-}
-
-.image2 {
-  color: blueviolet;
-  margin-right: 200px;
-}
-
-.image3 {
+.image {
   color: blueviolet;
   margin-right: 200px;
 }
@@ -59,6 +44,7 @@ body {
 
 .container_top {
   display: flex;
+  min-width: 1865px;
 }
 
 .container_bottom {
@@ -67,4 +53,13 @@ body {
 
 .images {
   font-family: "Roboto", "Arial", sans-serif;
+}
+
+img {
+  width: 300px;
+  height: 450px;
+}
+
+.image:first-child {
+  margin-left: 50px;
 }
