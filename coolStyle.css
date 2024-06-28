@@ -63,3 +63,7 @@ img {
 .image:first-child {
   margin-left: 50px;
 }
+
+.recomendation {
+  color: rgb(114, 19, 158);
+}
